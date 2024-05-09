@@ -8,12 +8,12 @@ const firebaseConfig: {
   messagingSenderId: string;
   appId: string;
 } = {
-  apiKey: "AIzaSyD-7rPRgvaWN3gNtVaAxnQsLth9GWZ-0NY",
-  authDomain: "online-learning-6d67d.firebaseapp.com",
-  projectId: "online-learning-6d67d",
-  storageBucket: "online-learning-6d67d.appspot.com",
-  messagingSenderId: "278970046577",
-  appId: "1:278970046577:web:a67fb26b274b377746a3d0",
+  apiKey: `${process.env.FIREBASE_API_KEY}`,
+  authDomain: `${process.env.FIREBASE_AUTHDOMAIN}`,
+  projectId: `${process.env.FIREBASE_PROJECTID}`,
+  storageBucket: `${process.env.FIREBASE_STORAGE_BUCKET}`,
+  messagingSenderId: `${process.env.FIREBASE_MESSAGESENDERID}`,
+  appId: `${process.env.FIREBASE_APPID}`,
 };
 
 // Initialize Firebase
