@@ -26,9 +26,9 @@ const heroSection = () => {
             Succeed with Personalized Feedback
           </p>
           <p className="mt-2">
-            Every project receives personalized feedback from industry experts,
-            and our mentors are available to answer questions whenever you're
-            feeling stuck.
+            {
+              "Every project receives personalized feedback from industry experts,and our mentors are available to answer questions whenever you're feeling stuck."
+            }
           </p>
         </div>
       </div>
